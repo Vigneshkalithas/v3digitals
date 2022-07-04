@@ -1,0 +1,33 @@
+.home-conteiner{
+    background-image:url("./component/assets/background1.png");
+    height: 803px;
+    background-repeat:no-repeat;
+    background-origin: padding-box;
+    background-size: 100% 85%;
+    /* background-position:; */
+    /* object-fit: cover; */
+}
+.dreams{
+    color: #FFFFFF;
+    letter-spacing: 1.32px;
+    font: normal normal normal 60px/110px Bree Serif;
+    text-align: center;
+text-transform: uppercase;
+
+}
+.reality{
+    text-align: center;
+font: normal normal bold 73px/110px Bree Serif;
+letter-spacing: 1.3px;
+color: #F05D3A;
+text-transform: uppercase;
+
+}
+
+.homeRow{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}

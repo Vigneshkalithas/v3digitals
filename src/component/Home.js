@@ -1,17 +1,19 @@
 import React from 'react';
 
+
 const Home = () => {
   return (
-    <div
-      style={{
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        height: '90vh'
-      }}
-    >
-      <h1>Home</h1>
+   <>
+   <section className='container-fluid home-conteiner'>
+    < div className='row'>
+      <div className='homeRow'>
+      <h3 className='dreams'>WE TURN YOUR DREAMS</h3>
+      <h3 className='reality'>INTO A REALITY</h3>
+      </div>
+      
     </div>
+   </section>
+   </>
   );
 };
 
