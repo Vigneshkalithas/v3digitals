@@ -107,7 +107,7 @@ const Home = () => {
       <h3 className='join'>Join Us To Be A Part Of The Next</h3>
       <h3 className='reality'>UNICORN STORY!</h3>
       <div className='mt-5'>
-      <img src={unicorn} alt="unicorn" className='img-fluid'/>
+      <img src={unicorn} alt="unicorn" className='img-fluid unicorn'/>
       </div>
 
       </div>

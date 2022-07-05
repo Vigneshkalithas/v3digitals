@@ -34,6 +34,21 @@ text-transform: uppercase;
 
 }
 
+@media only screen and (max-width: 850px) {
+    .unicorn {
+        width:200px;
+        height:200px;
+        margin-bottom:100px;
+    }
+  }
+    @media only screen and (max-width: 600px) {
+        .unicorn {
+            width:100px;
+            height:100px;
+            margin-bottom:195px;
+        }
+    }
+
 .homeRow{
     display: flex;
     align-items: center;

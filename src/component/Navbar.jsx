@@ -35,7 +35,7 @@ const Navbar = () => {
           <Link to='/' className='press'>
             <li>Press</li>
           </Link>
-          <Link to='/' className=''>
+          <Link to='/' className='getbtn'>
             <button className="btn btn-sm mx-2 btnGet">GET INTO TOUCH</button>
           </Link>
         </ul>
