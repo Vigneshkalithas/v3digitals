@@ -11,7 +11,10 @@ const Navbar = () => {
     <>
       <nav className='navbar'>
         {/* <h3 className='logo'>Logo</h3> */}
-        <img src={logo} alt="logo" className="logo" /> 
+        <Link to="/"> 
+        <img src={logo} alt="logo"  className="logo" /> 
+        
+        </Link>
         {/*
         if large screen ma xa bhane Mobile add huxa
         if mobile screen ma xa bhane nav-links-mobile add huxa
@@ -23,24 +26,24 @@ const Navbar = () => {
           <Link to='/services' className='service'>
             <li>Services</li>
           </Link>
-          <Link to='/blogs' className='blogs'>
+          <Link to='/' className='blogs'>
             <li>Blog</li>
           </Link>
           <Link to='/contact' className='contact'>
             <li>Contact</li>
           </Link>
-          <Link to='/press' className='press'>
+          <Link to='/' className='press'>
             <li>Press</li>
           </Link>
-          <Link to='' className=''>
-            <li><button className="btn btn-danger">GET INTO TOUCH</button></li>
+          <Link to='/' className=''>
+            <button className="btn btn-sm mx-2 btnGet">GET INTO TOUCH</button>
           </Link>
         </ul>
         {/* 
         whenever we click on button = setMobile(!Mobile) ==  is mobile oppsite to setMobile 
         */}
         <button className='mobile-menu-icon' onClick={() => setMobile(!Mobile)}>
-          {Mobile ? <ImCross /> : <FaBars />}
+          {Mobile ? <ImCross/> : <FaBars color='white' />}
         </button>
       </nav>
     </>

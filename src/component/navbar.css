@@ -36,10 +36,11 @@ li {
   color: white;
   font-family: 'Lato', sans-serif;
   font-weight: bold;
-  font-size: 18px;
-  padding: 6px 16px;
-  margin: 0 15px;
+  font-size: 15px;
+  padding: 4px 8px;
+  margin: 0 10px;
   cursor: pointer;
+
   /* text-transform: capitalize; */
 }
 
@@ -51,6 +52,17 @@ li {
   /* padding: 14px; 
 } 
 */
+.btnGet{
+  border-radius: 0px;
+  background: #F05D3A 0% 0% no-repeat padding-box;
+  width: 130px;
+height: 35px;
+color: #000000;
+font-family: 'Lato';
+font-weight: bold;
+font-size: 10px;
+/* margin-top:2px !important; */
+}
 
 .hero {
   text-align: center;
